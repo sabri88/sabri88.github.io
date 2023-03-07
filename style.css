@@ -1,0 +1,135 @@
+html{ 
+   background:linear-gradient(0deg, rgb(255, 255, 255), rgb(255, 235, 235));
+   background-repeat: no-repeat;
+}
+
+header{
+    display: flex;
+    flex-wrap:wrap; 
+    justify-content:space-between;
+}
+      
+#listDatos {
+    font-family: 'Fira Sans', sans-serif;
+}
+h1{
+    padding-left: 2em;
+}
+ 
+.navbar{
+    margin: 0.5rem;
+    display: block;
+    height: 3rem; 
+    font-family: 'Roboto', sans-serif;    
+}
+
+.navbar ul{
+    display: flex;
+    list-style-type:none;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding-right:0.5em;
+    padding-left: 0.5em;
+}
+.navbar ul li{ 
+    text-transform: uppercase;  
+}
+
+a{ 
+    text-decoration: none;
+    color: black;
+    font-weight: bold; 
+    font-size: 1em;
+    }
+
+.hov :hover,  .hov :active{ 
+    background:linear-gradient(0deg, rgba(255, 216, 239, 0), rgba(255, 180, 224, 0.71));
+    border: 2px;
+    border-color: rgba(255, 225, 232, 0.491);
+    border-radius: 10px;
+    padding: 0.3em; 
+
+
+}
+
+#foto{ 
+    border-radius: 30%; 
+    display: flex ;    
+    margin:auto;
+    padding: 2em;
+}
+
+#section1 {
+    font-size: large;
+
+    ; }
+
+h1 , h2{
+    font-family: 'Fira Sans', sans-serif;
+ 
+}
+h3 , li{
+    font-family: 'Roboto', sans-serif;
+}
+
+span{
+    font-size: 2em; 
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+li{
+    margin: 5px;
+    height:fit-content;
+    } 
+div , #section3 {
+    text-align: center; 
+    justify-content: center;
+}  
+
+ul{ 
+  list-style-type: none;
+   text-align: center;
+ }
+ 
+#formulario{      
+    font-family: 'Roboto', sans-serif;
+    display: flex ;   
+    margin:auto;
+    padding: 2em;
+    text-align: left;
+    font-size: 1.5em;
+}
+
+ textarea {
+    font-family: 'Roboto', sans-serif;     
+     font-size: 1em;
+    width: 300px;
+ } 
+ 
+ #section3{
+    display: flex;
+    flex-wrap:wrap ; 
+    justify-content:space-around;
+ }
+
+ /* imagenes - habilidades*/
+    .container {
+        width: 300px;
+        height: 323px;
+        overflow: hidden;
+        margin: 10px;
+        position:relative ; 
+         
+    }
+    .container > .crop{  
+        position:absolute ;
+        left:  -50%;
+        right:-100%;
+        top: -100%;
+        bottom: -100%;
+        margin: auto;
+        min-height: 100%;
+        min-width: 100%; 
+    } 
+    
+    
